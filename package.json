@@ -1,0 +1,34 @@
+{
+  "name": "backend-course",
+  "version": "1.0.0",
+  "description": "Aprendiendo NPM",
+  "main": "index.js",
+  "scripts": {
+    "port": "cross-env PORT=2134 node ./10.http.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pabl0705/node.js-course.git"
+  },
+  "keywords": [
+    "node",
+    "backend"
+  ],
+  "author": "Pablo Ruz Muñoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pabl0705/node.js-course/issues"
+  },
+  "homepage": "https://github.com/Pabl0705/node.js-course#readme",
+  "dependencies": {
+    "picocolors": "1.1.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "standard": "17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
