@@ -36,7 +36,7 @@ fs.readFile('./archivo.txt', 'utf-8', (err, data) => { // Ahora tenemos que sabe
   console.error(err)
 })
 
-console.log('Hacemos cosas...') // Esto se ejecuta igualmente aunque este leyendo el primer archivo, ya volvera cuando termine la lectura
+console.log('Hacemos cosas mientras se lee el primer archivo...') // Esto se ejecuta igualmente aunque este leyendo el primer archivo, ya volvera cuando termine la lectura
 
 fs.readFile('./archivo2.txt', 'utf-8', (err, data) => { // Podemos poner el mismo nombre en las variables del callback (son funciones al fin y al cabo)
   console.log(data)
