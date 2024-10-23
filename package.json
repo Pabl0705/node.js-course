@@ -4,6 +4,7 @@
   "description": "Aprendiendo NPM",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon./12.http.js",
     "port": "cross-env PORT=2134 node ./10.http.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
+    "nodemon": "3.1.7",
     "standard": "17.1.2"
   },
   "eslintConfig": {
