@@ -22,3 +22,29 @@ Content-Type: application/json
         "speed": 90
     }
 }
+
+###
+
+GET http://localhost:1234/pokemon/ditto
+
+###
+POST http://localhost:1234/pokemon
+Content-Type: application/json
+
+{
+    "name": "Pikachu",
+    "type": "electric",
+    "weight": 6.0,
+    "height": 0.41,
+    "abilities": ["static", "lightning-rod"],
+    "moves": ["thunder-shock", "thunderbolt", "thunder", "quick-attack"],
+    "evolutions": ["raichu"],
+    "stats": {
+        "hp": 35,
+        "attack": 55,
+        "defense": 40,
+        "special-attack": 50,
+        "special-defense": 45,
+        "speed": 90
+    }
+}
