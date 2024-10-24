@@ -20,7 +20,7 @@ El objetivo de este repositorio es documentar mi progreso en el aprendizaje de N
 - **Node.js**
 - **Express**
 - **MySQL**
-- **Postman** (para pruebas)
+- **Postman/Insomnia** (para pruebas)
 - **Sequelize** (ORM opcional)
 
 ## Requisitos
